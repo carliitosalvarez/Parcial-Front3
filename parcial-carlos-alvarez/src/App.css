@@ -1,0 +1,56 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+section h1 {
+  font-size: 34px;
+  color: hsl(0, 0%, 0%);
+  margin: 0 auto;
+  margin-bottom: 35px;
+  text-transform: uppercase;
+  font-weight: 1000;
+  margin-bottom: -200px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 200px 580px auto;
+  width: 360px;
+}
+
+form input {
+  background-color: #d1c4c44d;
+  padding: 8px;
+  border-radius: 4px;
+  margin: 5px 0;
+  border: solid 1px #e6e6e6;
+}
+
+form button {
+  background-color: rgb(255, 140, 32);
+  margin: 10px 15px 0;
+}
+
+.error {
+  border: rgb(158, 60, 60) solid 1px;
+  
+}
+
+.App form .errorMessage {
+  color: rgb(158, 60, 60);
+  font-size: 8px;
+  text-align: center;
+  width: 100%;
+  margin-top: -3px;
+  margin-left: 200px;
+}
